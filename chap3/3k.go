@@ -7,6 +7,6 @@ import "fmt"
 //
 
 func main() {
-	x := "Titus." 
-	fmt.Println( "My dog's name is", x )
+	dogsName := "Titus." 
+	fmt.Println( "My dog's name is", dogsName )
 }
