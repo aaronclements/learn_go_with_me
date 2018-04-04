@@ -7,7 +7,7 @@ import "fmt"
 //
 
 func main() {
-	x:= "yo"
-	y:= "hookah"
+	x := "yo"
+	y := "hookah"
 	fmt.Println( x == y )
 }

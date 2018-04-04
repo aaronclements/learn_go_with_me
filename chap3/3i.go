@@ -7,7 +7,7 @@ import "fmt"
 //
 
 func main() {
-	x:= 50 
-	y:= 50 
+	x := 50 
+	y := 50 
 	fmt.Println( x + y )
 }
