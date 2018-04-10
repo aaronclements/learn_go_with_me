@@ -11,7 +11,7 @@ import "fmt"
 //							everything else is 0
 
 func main() {
-    var x [7]int
+	var x [7]int
 	x[4] = 100
 	x[2] = 10
 	fmt.Println(x)
