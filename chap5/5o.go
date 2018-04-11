@@ -5,14 +5,11 @@ import "fmt"
 //
 //  Expected output:	Josh Stigall
 //
-//  Comment:			This example shows how we can store multiple values.
-//
-
-package main
-import "fmt"
+//  Comment:			This example shows how we can store multiple values in a map.
+//                      So we print the first and last name of the requested initials.
 
 func main() {
-    elements := map[string]map[string]string{
+    SRE := map[string]map[string]string{
         "AC": map[string]string{
             "firstname":"Aaron",
             "lastname":"Clements",
@@ -23,7 +20,7 @@ func main() {
         },
     }
 
-    if i, ok := elements["JS"]; ok {
-        fmt.Println(i["firstname"], i["lastname"])
+    if i, ok := SRE["JS"]; ok {
+        fmt.Println( i["firstname"], i["lastname"] )
     }
 }
