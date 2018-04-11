@@ -4,6 +4,7 @@ import "fmt"
 // Aaron Clements did this.
 //
 //  Expected output:	
+//                      (Note there is nothing here.  See notes.)
 //
 //  Comment:			Here, we are element mapping strings to strings.
 //                      In this case, we map "SRE" to another string.

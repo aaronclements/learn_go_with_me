@@ -3,13 +3,15 @@ import "fmt"
 
 // Aaron Clements did this.
 //
-//  Expected output:	 false
+//  Expected output:	" false"
+//                      (Note the space character prior.)
 //
 //  Comment:			Here, we are element mapping strings to strings.
 //                      In this case, we map "SRE" to another string.
 //                      It then returns the string mapped to the SRE element.
 //                      BUT IN THIS CASE, KZ does not exist. It has no value.
 //                      The default return for strings is nothing, as 0 is for ints.
+//                      "ok" is whether the search was successful for the value requested.
 //                      This means fullname will return nothing, and ok will return false.
 
 func main() {

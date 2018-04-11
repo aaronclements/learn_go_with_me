@@ -3,13 +3,14 @@ import "fmt"
 
 // Aaron Clements did this.
 //
-//  Expected output:	
+//  Expected output:	Eamon Bisson-Donahue true
 //
 //  Comment:			Here, we are element mapping strings to strings.
 //                      In this case, we map "SRE" to another string.
 //                      It then returns the string mapped to the SRE element.
 //                      IN THIS CASE, EBD does exist. It has an assigned value.
-//                      This means fullname will return Eamon, and ok will return true.
+//                      "ok" is whether the search was successful for the value requested.
+//                      This means fullname will return Eamon's, and ok will return true.
 //
 
 func main() {
