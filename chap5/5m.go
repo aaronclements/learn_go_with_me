@@ -3,11 +3,14 @@ import "fmt"
 
 // Aaron Clements did this.
 //
-//  Expected output:	Aaron Clements
+//  Expected output:	
 //
 //  Comment:			Here, we are element mapping strings to strings.
 //                      In this case, we map "SRE" to another string.
 //                      It then returns the string mapped to the SRE element.
+//                      IN THIS CASE, EBD does exist. It has an assigned value.
+//                      This means fullname will return Eamon, and ok will return true.
+//
 
 func main() {
     SRE := make(map[string]string)
@@ -22,5 +25,6 @@ func main() {
     SRE["SL"]  = "Sean Lyons"
     SRE["ZS"]  = "Zack Stayman"
 
-    fmt.Println(SRE["AC"])
+    fullname, ok := SRE["EBD"]
+    fmt.Println(fullname, ok)
 }
