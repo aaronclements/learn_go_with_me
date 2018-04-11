@@ -13,6 +13,7 @@ import "fmt"
 //                      "ok" is whether the search was successful for the value requested.
 //
 //                      We can also see this example represented in a function.
+//                      So we get a value from the map and process it according to the rules.
 //                      So instead of just getting " false" for output, I'm having it say "Nope!"
 //
 
