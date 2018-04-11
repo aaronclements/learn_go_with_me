@@ -20,7 +20,7 @@ func main() {
         },
     }
 
-    if i, ok := SRE["JS"]; ok {
-        fmt.Println( i["firstname"], i["lastname"] )
+    if name, ok := SRE["JS"]; ok {
+        fmt.Println( name["firstname"], name["lastname"] )
     }
 }
