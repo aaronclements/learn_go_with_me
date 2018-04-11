@@ -3,14 +3,17 @@ import "fmt"
 
 // Aaron Clements did this.
 //
-//  Expected output:	Eamon Bisson-Donahue true
+//  Expected output:	Nope!
 //
-//  Comment:			Here, we are element mapping strings to strings.
+//  Comment:			This example goes back to 5m.
+//                      Here, we are still element mapping strings to strings.
 //                      In this case, we map "SRE" to another string.
-//                      It then returns the string mapped to the SRE element.
-//                      IN THIS CASE, EBD does exist. It has an assigned value.
+//                      It returns the string mapped to the SRE element.
+//                      IN THIS CASE, KS does not exist, so it has no value.
 //                      "ok" is whether the search was successful for the value requested.
-//                      This means fullname will return Eamon's, and ok will return true.
+//
+//                      We can also see this example represented in a function.
+//                      So instead of just getting " false" for output, I'm having it say "Nope!"
 //
 
 func main() {
@@ -26,6 +29,9 @@ func main() {
     SRE["SL"]  = "Sean Lyons"
     SRE["ZS"]  = "Zack Stayman"
 
-    fullname, ok := SRE["EBD"]
-    fmt.Println(fullname, ok)
+    if fullname, ok := SRE["KS"]; ok {
+        fmt.Println(fullname, ok) 
+    } else{
+        fmt.Println("Nope!")
+    }
 }
