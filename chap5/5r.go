@@ -3,14 +3,14 @@ import "fmt"
 
 // Aaron Clements did this.
 //
-//  THIS NEEDS TO BE CHECKED......
+//  COMMENT NEEDS TO BE CHECKED......
 //
 //  Expected output:	[c d e]
 //
-//  Comment:			Go up to the 5th string "e"
+//  Comment:		Go up to the 5th string "e"
 //                      Go back 2 strings to "c".
 //                      Print strings including and between "c" and "e".
-//                      This might not be phrased quite right????
+//                      ????
 //
 
 func main() {
