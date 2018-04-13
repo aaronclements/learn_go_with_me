@@ -6,11 +6,7 @@ import (
 
 // Aaron Clements did this.
 //
-//  COMMENT NEEDS TO BE CHECKED......
-//
-//  Expected output:
-//
-//  Comment:
+//  Expected output: 9
 //
 //
 
