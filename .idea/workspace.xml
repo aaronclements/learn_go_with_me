@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="1501411f-297a-4cf5-b100-4bf57d642288" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/chap5/5s.go" beforeDir="false" afterPath="$PROJECT_DIR$/chap5/5s.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chap6/6f.go" beforeDir="false" afterPath="$PROJECT_DIR$/chap6/6f.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chap6/6g.go" beforeDir="false" afterPath="$PROJECT_DIR$/chap6/6g.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chap6/6h.go" beforeDir="false" afterPath="$PROJECT_DIR$/chap6/6h.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,11 +15,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="6g.go" pinned="false" current-in-tab="true">
+      <file leaf-file-name="6g.go" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/chap6/6g.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+            <state relative-caret-position="75">
+              <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="6h.go" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/chap6/6h.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -41,6 +50,7 @@
         <option value="$PROJECT_DIR$/chap6/6e.go" />
         <option value="$PROJECT_DIR$/chap6/6f.go" />
         <option value="$PROJECT_DIR$/chap6/6g.go" />
+        <option value="$PROJECT_DIR$/chap6/6h.go" />
       </list>
     </option>
   </component>
@@ -90,6 +100,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value=" {&#9;null&#9;null" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
     <property name="last_opened_file_path" value="$USER_HOME$" />
@@ -108,16 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build 6g.go">
-    <configuration name="go build 6a.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
-      <module name="learn_go_with_me" />
-      <working_directory value="$PROJECT_DIR$/" />
-      <go_parameters value="-i" />
-      <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/chap6/6a.go" />
-      <package value="learn_go_with_me" />
-      <directory value="$PROJECT_DIR$/" />
-    </configuration>
+  <component name="RunManager" selected="Go Build.go build 6h.go">
     <configuration name="go build 6b.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="learn_go_with_me" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -154,20 +156,29 @@
       <package value="learn_go_with_me" />
       <directory value="$PROJECT_DIR$/" />
     </configuration>
+    <configuration name="go build 6h.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="learn_go_with_me" />
+      <working_directory value="$PROJECT_DIR$/" />
+      <go_parameters value="-i" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/chap6/6h.go" />
+      <package value="learn_go_with_me" />
+      <directory value="$PROJECT_DIR$/" />
+    </configuration>
     <list>
-      <item itemvalue="Go Build.go build 6a.go" />
       <item itemvalue="Go Build.go build 6b.go" />
       <item itemvalue="Go Build.go build 6e.go" />
       <item itemvalue="Go Build.go build 6f.go" />
       <item itemvalue="Go Build.go build 6g.go" />
+      <item itemvalue="Go Build.go build 6h.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build 6h.go" />
         <item itemvalue="Go Build.go build 6g.go" />
         <item itemvalue="Go Build.go build 6f.go" />
         <item itemvalue="Go Build.go build 6e.go" />
         <item itemvalue="Go Build.go build 6b.go" />
-        <item itemvalue="Go Build.go build 6a.go" />
       </list>
     </recent_temporary>
   </component>
@@ -175,13 +186,13 @@
     <frame x="164" y="22" width="1443" height="1342" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24948025" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24948025" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.329653" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.329653" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Favorites" order="2" side_tool="true" />
@@ -256,8 +267,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/chap6/6g.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
+        <state relative-caret-position="75">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chap6/6h.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="24" lean-forward="true" selection-start-line="4" selection-start-column="24" selection-end-line="4" selection-end-column="24" />
         </state>
       </provider>
     </entry>

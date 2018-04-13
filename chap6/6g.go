@@ -3,7 +3,7 @@ import "fmt"
 
 // Aaron Clements did this.
 //
-//  Expected output:	1
+//  Expected output:	3
 //
 //		main will print f1
 //		f1 is an int that returns the value in f2 plus 2
