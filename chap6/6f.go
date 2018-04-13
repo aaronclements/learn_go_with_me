@@ -5,7 +5,7 @@ import "fmt"
 //
 //  Expected output:	5
 //
-//		Sema as 6e.  We're making the function main call f() which returns 5.
+//		Sema as 6d.  We're making the function main call f() which returns 5.
 //
 
 var x int = 5
