@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 // Aaron Clements did this.
@@ -7,5 +8,5 @@ import "fmt"
 //
 
 func main() {
-	fmt.Println("1 + 1 =", 1.0 + 1.0)
+	fmt.Println("1 + 1 =", 1.0+1.0)
 }
