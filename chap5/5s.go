@@ -8,7 +8,10 @@ import (
 //
 //  Expected output: 9
 //
+//	COMMENT:	GoLand altered my import statement for me when I called for "sort".
 //
+//
+
 
 func main() {
 	x := []int{
