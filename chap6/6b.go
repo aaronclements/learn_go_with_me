@@ -1,4 +1,5 @@
 package main
+
 import "fmt"
 
 // Aaron Clements did this.
@@ -13,12 +14,12 @@ import "fmt"
 func averagetime(xs []float64) float64 {
 	total := 0.0
 	for _, v := range xs {
-		total +=v
+		total += v
 	}
 	return total / float64(len(xs))
 }
 
 func main() {
-	xs := []float64{22,33,77,44,55}
+	xs := []float64{22, 33, 77, 44, 55}
 	fmt.Println(averagetime(xs))
 }
