@@ -29,13 +29,17 @@ type Person struct {
 }
 
 func main() {
+        //
+        // These are the mongo nodes.
+        //
         session, err := mgo.Dial("127.0.0.1:27017,127.0.0.1:37017")
         if err != nil {
                 panic(err)
         }
         defer session.Close()
-
+        //
         // Optional. Switch the session to a monotonic behavior.
+        //
         session.SetMode(mgo.Monotonic, true)
 
         c := session.DB("test").C("people")
